@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+	{% include header.html %}
+
+   
+	<!-- Main -->
+	<div id="main" class="alt"  style="background: #fff;">
+
+	<!-- One -->
+	<section id="one" style="background: #2a2f4a;">
+		<div class="inner">
+
+				<h1>{{ page.title }}</h1>
+				<p>Your generous support provides a defining educational experience for UBC students. We greatly appreciate your sponsorship and thank you for investing in the UBC community. </p>
+            	<br>
+            	<h2> Prospective Sponsors </h2>
+            	<p>Interested in becoming a sponsor? Check out our sponsorship package:</p>
+				<ul class="actions">
+                    <li><a href="/assets/sponsorship.pdf" class="button next">Download PDF</a></li>
+                </ul>
+        </div>
+    </section>
+
+	<section id="two">
+		<div class="inner">
+			<h1 style="color: #2a2f4a;"> Our Sponsors and Partners </h1>
+			<p>{{ content }}</p>
+		</div>
+	</section>
+
+	</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
