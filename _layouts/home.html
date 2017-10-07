@@ -24,11 +24,15 @@
                 </ul>
             </div>
             <br>
+            <div class="6u 12u$(small)">
             <h5><a href="{{ '/2017/10/04/schedule.html' | prepend: site.baseurl | prepend: site.url }}" class="button small scrolly">Upcoming Events</a></h5>
-            <small><b>Hypothesis, Problem, and Solution Workshop</b> | October 11th 2017</small>
+            <p><b>{{ page.event-name }}</b> | <i>{{page.event-time}}</i>
+            <br>
+            {{page.event-desc}} <strong> <u><a href="{{page.event-link}}" class="icon fa-facebook" target="_blank"> RSVP </a> </u></strong>
+            </p>
+            </div>
             <div class="6u 12u$(small)">
                 <div class="inner">
-                    <br>
                     <ul class="icons">
                         {% if site.twitter_url %}
                         <li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
@@ -41,15 +45,6 @@
                         {% endif %}
                         {% if site.instagram_url %}
                         <li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-                        {% endif %}
-                        {% if site.pinterest_url %}
-                        <li><a href="{{ site.pinterest_url }}" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
-                        {% endif %}
-                        {% if site.500px_url %}
-                        <li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
-                        {% endif %}
-                        {% if site.gitlab_url %}
-                        <li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
                         {% endif %}
                         {% if site.github_url %}
                         <li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
