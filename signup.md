@@ -73,7 +73,7 @@ nav-menu: true
 
 <div class="6u 12u$(small)">
     <h4>Competition Eligibility</h4>
-    <p>To participate in the competition, you must meet the following criteria. Please read the <a href="/2017/10/04/faq.html" class="link">FAQ</a> for more information.</p>
+    <p>To participate in the competition, you must meet the following criteria. Please read the <a href="{{ '/2017/10/04/faq.html ' | prepend: site.baseurl | prepend: site.url }}" class="link">FAQ</a> for more information.</p>
     <dl>
         <dt>Student Status</dt>
         <dd>
