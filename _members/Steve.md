@@ -3,7 +3,7 @@ layout: post
 weight: 100
 name: Steve Shengyang Zhang
 status: executive
-img: 
+img: /assets/images/members/steve.jpg
 email: siang [at] alumni.ubc.ca
 biography: >
   Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).

@@ -56,15 +56,21 @@
                     </div>
                 </div>
             </header>
+        </div>
+    </section>
+    <div id="particles-js" style="position: absolute; top: 1200px; width: 100%; height: 100%; z-index: -1;"></div>
+
+    <section id="themes"> 
             <hr>
+            <div class="inner">
             <div class="row">
                 <div class="12u$(small)">
-                <h2>Competition Themes</h2>
+                <h2>Innovation Themes</h2>
                 <p>Our 2017 program focuses on three main themes in engineering: Health, Energy &amp; Environment and Food.</p>
                 </div>
                 <div class="4u 12u$(small)">
                     <ul class="actions fit">
-                        <li><a href="#!" class="button fit">Health</a></li>
+                        <li><a href="#!" class="button fit icon fa-medkit">Health</a></li>
                     </ul>
                     <div class="box">
                         <p>Health covers a wide range of topics including biotechnology and pharmaceuticals. Examples include medical devices, implants and any form of technology that targets diseases or increases a patient's quality of life.</p>
@@ -72,7 +78,7 @@
                 </div>
                 <div class="4u 12u$(small)">
                     <ul class="actions fit">
-                        <li><a href="#!" class="button fit">Energy &amp; Environment</a></li>
+                        <li><a href="#!" class="button fit icon fa-envira">Energy &amp; Environment</a></li>
                     </ul>
                     <div class="box">
                         <p>With recent developments in the field of cleantech, energy and environment are increasingly intertwined. Innovations in this field include energy storage technology, processes that convert waste to value-added materials and renewable energy.</p>
@@ -80,7 +86,7 @@
                 </div>
                 <div class="4u 12u$(small)">
                     <ul class="actions fit">
-                        <li><a href="#!" class="button fit">Food</a></li>
+                        <li><a href="#!" class="button fit icon fa-cutlery">Food</a></li>
                     </ul>
                     <div class="box">
                         <p>Food security is an import topic globally. Entrepreneurship in this field include improvements in agricultural efficiency, strategies for reducing food wastage and innovative clean water technology. </p>
@@ -139,9 +145,14 @@
         </section>
 
     </div>
-
+    <script src="{{ '/assets/js/particles.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script type="text/javascript">
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+    </script>
     {% include footer.html %}
-
 </body>
 
 </html>
