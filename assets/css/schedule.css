@@ -1,3 +1,12 @@
+.img-sponsor {
+    -webkit-filter:  grayscale(30%);
+    filter:  saturate(0%);
+}
+
+.img-sponsor:hover {
+    -webkit-filter: none;
+    opacity: 1.0;
+}
 
 .container-fluid .row {
   padding: 0 0 4em 0;
