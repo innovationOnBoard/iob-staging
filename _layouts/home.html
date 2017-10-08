@@ -77,7 +77,8 @@
                         <p>Innovation OnBoard</b> is a FREE 6-month program filled with entrepreneurship seminars, workshops and a Dragons' Den-style competition to foster innovation in engineering. UBC and SFU students from <b>all</b> faculties and departments are welcomed.</p>
                     </div>
                     <div class="6u 12u$(small)">
-                         <iframe width="100%" height="250" src="https://www.youtube.com/embed/LsYi6E_1hRE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        <div class="youtube" id="LsYi6E_1hRE" src="{{ '/assets/images/pic04.jpg' | prepend: site.baseurl | prepend: site.url }}" style="width:100%; height:264px;"></div>
+                            <script type="text/javascript" src="https://codegena.com/assets/js/youtube-embed.js"></script>
                     </div>
                 </div>
                 <hr>
@@ -298,6 +299,10 @@
     });
 });
 </script>
+    <script src="{{ 'assets/js/modal-video.js' | absolute_url }}"></script>
+    <script>
+        $(".js-modal-btn").modalVideo();
+    </script>
 </body>
 
 </html>
