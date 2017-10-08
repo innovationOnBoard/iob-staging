@@ -1,6 +1,6 @@
 ---
 layout: post
-weight: 200
+weight: 300
 name: Said Zaid-Alkailani
 status: founder
 title: Marketing Lead

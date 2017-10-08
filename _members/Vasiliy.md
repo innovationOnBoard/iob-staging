@@ -1,6 +1,6 @@
 ---
 layout: post
-weight: 300
+weight: 100
 name: Vasilii Triandafilidi
 status: founder
 title: President
