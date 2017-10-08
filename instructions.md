@@ -1,4 +1,4 @@
-# Adding a new team member
+# Adding a new team member or board member
 1. Create a new .md file in _members and fill in the details, use the existing ones as a template.
 2. Make sure the photo is square shaped, crop it if it is not, then add the photo to /assets/images/members/
 
