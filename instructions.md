@@ -17,6 +17,9 @@
 2. Team photos: use a minimum of 200x200 or any squarish shape, it will get resized to 200x200 with CSS
 3. MAKE SURE ALL IMAGE EXTENSIONS I.E. JPG ARE lowercase (jpg not JPG)
 
+# Upating the FAQ
+Go to _posts and update "2017-10-04-faq.md"
+
 # Changing the homepage video
 1. Go to _layouts/home.html and replace the iframe code with the new video embed link (grab it from youtube):
 ```
