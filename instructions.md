@@ -10,3 +10,15 @@
 
 # Updating the front page events
 1. Go to index.md and update the event variables: event-name, event-time, event-desc, event-link etc.
+2. Make sure you do this after every event
+
+# Image sizes and files
+1. Cover picture and tiles: use the 'large' download settings from flickr
+2. Team photos: use a minimum of 200x200 or any squarish shape, it will get resized to 200x200 with CSS
+3. MAKE SURE ALL IMAGE EXTENSIONS I.E. JPG ARE lowercase (jpg not JPG)
+
+# Changing the homepage video
+1. Go to _layouts/home.html and replace the iframe code with the new video embed link (grab it from youtube):
+```
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/LsYi6E_1hRE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+```
