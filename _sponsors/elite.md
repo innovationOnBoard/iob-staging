@@ -2,6 +2,6 @@
 layout: post
 weight: 100
 name: Elite Mentors Association
-status: gold
+status: platinum
 img: /assets/images/sponsors/elite.png
 ---

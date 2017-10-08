@@ -2,7 +2,7 @@
 title: Innovation
 subtitle: OnBoard
 email: contact@innovationonboard.ca
-description: Forstering Entrepreneurship in UBC
+description: Fostering Entrepreneurship in UBC
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://siang.ca/iob2" # the base hostname & protocol for your site
 author:
@@ -28,6 +28,8 @@ linkedin_url: https://www.linkedin.com/company/18263369/
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/InnovationOB
+flickr_url: https://www.flickr.com/photos/155012628@N03/
+medium_url: https://medium.com/@innovationonboard
 
 # build settings
 markdown: kramdown

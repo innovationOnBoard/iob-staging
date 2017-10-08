@@ -55,6 +55,12 @@
                         {% if site.linkedin_url %}
                         <li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
                         {% endif %}
+                        {% if site.medium_url %}
+                        <li><a href="{{ site.medium_url }}" class="icon alt fa-medium" target="_blank"><span class="label">Medium</span></a></li>
+                        {% endif %}
+                        {% if site.flickr_url %}
+                        <li><a href="{{ site.flickr_url }}" class="icon alt fa-flickr" target="_blank"><span class="label">Flickr</span></a></li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
@@ -67,30 +73,30 @@
             <header>
                 <h2 id="content">What is Innovation OnBoard?</h2>
                 <div class="row">
-                    <div class="6u 12u$(small)">
-                        <!-- <span class="image left"><img src="assets/images/pic09.jpg" alt="" /></span> -->
+                    <div class="12u">
                         <p>Innovation OnBoard</b> is a FREE 6-month program filled with entrepreneurship seminars, workshops and a Dragons Den-style competition to foster innovation in engineering. UBC and SFU students from <b>all</b> faculties and departments are welcomed.</p>
-
-                        <p>Register your team today for a chance to network with BC entrepreneurs and win more than <strong>$10,000</strong> in prizes and sponsorship.</p>
-
-                        <p><a href="{{ '/signup.html' | prepend: site.baseurl | prepend: site.url }}" class="button special fit">Register</a></p>
                     </div>
-                    <div class="6u 12u$(small)">
-
+                   <div class="6u 12u$(small)">
                         <div class="box">
-                            <h2>Get the latest news!</h2>
-                            <p>All Innovation OnBoard events and seminars are free. <a href="#signup" class="link">Sign Up</a> for our newsletter to get the latest entrepreneurship resources.</p>
+                            <h1>Learn</h1>
+                            <p>All students are free to attend our workshops regardless if they have registered to compete. <a href="#signup" class="link">Sign Up</a> for our newsletter to get the latest entrepreneurship resources.</p>
                             <ul class="actions fit">
-                                <li><a href="{{ '/signup.html' | prepend: site.baseurl | prepend: site.url }}" class="button fit">Sign Up!</a></li>
+                                <li><a href="{{ '/signup.html' | prepend: site.baseurl | prepend: site.url }}" class="button fit">Newsletter Sign Up</a></li>
                             </ul>
                         </div>
-                        
+                    </div>                    
+                    <div class="6u 12u$(small)">
+                        <div class="box">
+                            <h1>Compete</h1>
+                            <p>Register your team today for a chance to network with BC entrepreneurs and win more than <strong>$10,000</strong> in prizes and sponsorship.</p>
+                            <p><a href="{{ '/signup.html' | prepend: site.baseurl | prepend: site.url }}" class="button special fit">Register To Compete</a></p>
+                        </div>
                     </div>
                 </div>
             </header>
         </div>
     </section>
-    <div id="particles-js" style="position: absolute; top: 1200px; width: 100%; height: 100%; z-index: -1;"></div>
+    <div id="particles-js" style="position: absolute; top: 1350px; width: 100%; height: 100%; z-index: -1;"></div>
 
     <section id="themes"> 
             <hr>
@@ -102,7 +108,7 @@
                 </div>
                 <div class="4u 12u$(small)">
                     <ul class="actions fit">
-                        <li><a href="#!" class="button fit icon fa-medkit">Health</a></li>
+                        <li><a href="#!" class="button fit icon fa-medkit">Health <i class="mdi mdi-pill"></i></a></li>
                     </ul>
                     <div class="box">
                         <p>Health covers a wide range of topics including biotechnology and pharmaceuticals. Examples include medical devices, implants and any form of technology that targets diseases or increases a patient's quality of life.</p>
@@ -110,7 +116,7 @@
                 </div>
                 <div class="4u 12u$(small)">
                     <ul class="actions fit">
-                        <li><a href="#!" class="button fit icon fa-envira">Energy &amp; Environment</a></li>
+                        <li><a href="#!" class="button fit icon fa-envira">Energy &amp; Environment <i class="mdi mdi-recycle"></i></a></li>
                     </ul>
                     <div class="box">
                         <p>With recent developments in the field of cleantech, energy and environment are increasingly intertwined. Innovations in this field include energy storage technology, processes that convert waste to value-added materials and renewable energy.</p>
@@ -118,7 +124,7 @@
                 </div>
                 <div class="4u 12u$(small)">
                     <ul class="actions fit">
-                        <li><a href="#!" class="button fit icon fa-cutlery">Food</a></li>
+                        <li><a href="#!" class="button fit icon fa-cutlery">Food <i class="mdi mdi-dna"></i></a></li>
                     </ul>
                     <div class="box">
                         <p>Food security is an important topic globally. Entrepreneurship in this field include improvements in agricultural efficiency, strategies for reducing food wastage and innovative clean water technology. </p>
@@ -148,14 +154,17 @@
                     </ul>
                 </div>
                 <div class="6u 12u$(small)">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/6BB-Xc_tlrg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/LsYi6E_1hRE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </div>
         </div>
     </section>
-        <section id="social" style="text-align:center; background-color: #fff;">
+        <section id="social" style="background-color: #fff; text-align:center;">
             <div class="inner">
-            <h3 style="color: #2a2f4a !important;">FOLLOW US:</h3>
-            <h2>
+                <div class="row">
+                <div class="8u 12u$(small)">
+                    <div class="box" style="border-color: #2a2f4a !important;">
+                    <h3 style="color: #2a2f4a !important;">FOLLOW US:</h3>
+                    <h3>
                     <ul class="icons">
                         {% if site.twitter_url %}
                         <li><a href="{{ site.twitter_url }}" class="icon alt big  fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
@@ -178,9 +187,28 @@
                         {% if site.linkedin_url %}
                         <li><a href="{{ site.linkedin_url }}" class="icon alt big  fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
                         {% endif %}
-                    </ul>
+                        {% if site.medium_url %}
+                        <li><a href="{{ site.medium_url }}" class="icon alt fa-medium" target="_blank"><span class="label">Medium</span></a></li>
+                        {% endif %}
+                        {% if site.flickr_url %}
+                        <li><a href="{{ site.flickr_url }}" class="icon alt fa-flickr" target="_blank"><span class="label">Flickr</span></a></li>
+                        {% endif %}
+                        </ul>
+                        </h3>
+                    </div>
                 </div>
-            </h2>
+                <div class="4u 12u$(small)" style="text-align:center;">
+                    <div class="box" style="border-color: #2a2f4a !important;">
+                    <h3 style="color: #2a2f4a !important; text-align:left;">Blog and Media</h3>
+                    <p style="color: #2a2f4a !important; text-align:left;">Check out our Innovation OnBoard blog for the latest articles and media appearences</p>
+                    <h2><ul class="actions">
+                        <li><a href="{{ site.medium_url }}" class="button small special icon fa-medium">Blog</a></li>
+                    </ul>
+                    </h2>
+                    </div>
+
+                </div>
+            </div>
         </section>
         <!-- Two -->
         <section id="signup">
