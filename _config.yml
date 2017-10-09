@@ -3,8 +3,8 @@ title: Innovation
 subtitle: OnBoard
 email: contact@innovationonboard.ca
 description: Fostering Entrepreneurship in UBC
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.innovationonboard.ca" # the base hostname & protocol for your site
+baseurl: "iob-staging" # the subpath of your site, e.g. /blog
+url: "http://innovationonboard.github.io/" # the base hostname & protocol for your site
 author:
 street_address: 2360 East Mall
 city: Vancouver
