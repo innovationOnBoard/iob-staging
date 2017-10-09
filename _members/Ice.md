@@ -5,8 +5,8 @@ name: Kamonchanok Sirikan
 title: Technical Compiler
 status: executive
 img: /assets/images/members/ice.jpg
-email: siang [at] alumni.ubc.ca
+email: kam.sirikan@ubc.ca
 biography: >
-  Ice is a recent graduate from the Chemcial and Biological Engineering department at UBC. She is currently in the masters program.
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
+  Kamonchanok is a M.Eng student in Chemical & Biological Engineering in UBC focusing in environmental engineering and water treatment. Kamonchanok is experienced in cement industry from her past intern experiences. Post-graduation, Kamonchanok hopes to embark on an environmental engineering or consulting role.
+linkedin: https://www.linkedin.com/in/kamonchanok-sirikan-a2984a122/
 ---
