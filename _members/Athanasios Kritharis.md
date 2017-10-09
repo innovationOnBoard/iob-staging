@@ -5,8 +5,8 @@ name: Athanasios Kritharis
 status: founder
 title: Director
 img: /assets/images/members/thanos.jpg
-email: mail@mail.com
+email: director@innovationonboard.ca
 biography: >
-  Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
+  Athanasios (Thanos) Kritharis is a 4th year student in Biological & Chemical Engineering. After 3 years of leading the ChemECar Engineering design team and growing it into the multi-project group, Envision. He decided to step-down in his final year of studies to co-found Innovation Onboard. IOB was inspired by his experiences with competitions at UBC such as Hatching Health and Life Sciences Entrepreneurship and in the Lean Launch Pad Program. Thanos strongly believes in the ability of students to make a difference in the world and is committed to empowering them to make these changes.
+linkedin: https://www.linkedin.com/in/athanasios-kritharis-180693a5
 ---

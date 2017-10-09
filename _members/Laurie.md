@@ -5,8 +5,8 @@ name: Laurie Jiang
 title: Logistics Co-Lead
 status: executive
 img: /assets/images/members/laurie.jpg
-email: siang [at] alumni.ubc.ca
+email: lauriejiang@alumni.ubc.ca
 biography: >
-  Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
+  Laurie  is a final year student in Chemical Engineering, specializing in process controls.  She possesses professional experiences in a wide variety of sectors including environmental analysis, corrosion integrity, and energy megaprojects. As the logistics co-lead on Innovation OnBoard, Laurie hopes to broaden awareness and understanding about technology and innovation in different aspects of engineering including healthcare, energy, and manufacturing. She is a strong advocate for women in leadership and gender parity within STEM fields both at work and in education. Post-graduation, Laurie hopes to enmbark on an engineering or business-related technology role.
+linkedin: https://www.linkedin.com/in/lauriejiang/
 ---

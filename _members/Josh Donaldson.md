@@ -2,11 +2,11 @@
 layout: post
 weight: 500
 name: Josh Donaldson
-title: Social Media Coordinator
+title: Media Coordinator
 status: executive
 img: /assets/images/members/josh.jpg
-email: siang [at] alumni.ubc.ca
+email: donaldson.josh.96@gmail.com
 biography: >
-  Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
+  Joshua Donaldson is a 3rd year chemical engineering student at UBC. Josh is a project lead at UBC Envision where he is working to design a fully-automated brewing system that can be controlled by your phone! Josh has been passionate about entrepreneurship since a young age when he started his own freelance media company. 
+linkedin: https://www.linkedin.com/in/joshua-donaldson-34289245/
 ---
