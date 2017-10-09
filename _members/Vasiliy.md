@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 weight: 100
 name: Vasilii Triandafilidi
 status: founder
 title: President
-img: /assets/images/members/vasiliy.jpg
+img: /assets/images/members/vasiliy.png
 email: president@innovationonboard.ca
 
 biography: >
