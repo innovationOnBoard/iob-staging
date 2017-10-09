@@ -2,7 +2,7 @@
 layout: post
 weight: 500
 name: Ice
-title: Ice
+title: Technical Compiler
 status: executive
 img: /assets/images/members/ice.jpg
 email: siang [at] alumni.ubc.ca

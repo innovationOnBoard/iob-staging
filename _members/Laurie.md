@@ -2,7 +2,7 @@
 layout: post
 weight: 100
 name: Laurie Jiang
-title: Technical Lead
+title: Logistics Co-Lead
 status: executive
 img: /assets/images/members/laurie.jpg
 email: siang [at] alumni.ubc.ca
